@@ -19,6 +19,8 @@ textarea:focus-visible {
 	outline :3px solid #f4c542 !important;
 	outline-offset :3px;
 	box-shadow :0 0 0 2px #4c1407;
+	position :relative;
+	z-index :20;
 }
 .skip-link {
 	position :absolute;
@@ -109,7 +111,7 @@ img {
 	position :absolute;
 	left: 0px;
 	top: 160px;
-	overflow :hidden;
+	overflow :visible;
 	width: 620px;
 }
 #header div ul.navigation li {
@@ -135,7 +137,12 @@ img {
 #body {
 	width: 960px;
 	margin: 0 auto;
-	overflow: hidden;
+	overflow: visible;
+}
+#body::after {
+	content :"";
+	display :table;
+	clear :both;
 }
 #body.menu-page {
 	position :relative;
@@ -154,7 +161,7 @@ img {
 }
 #body .featured {
 	width:960px;
-	overflow:hidden;
+	overflow:visible;
 	margin-bottom: 0;
 }
 #body .featured img {
