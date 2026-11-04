@@ -5,9 +5,10 @@
 	<title>Shake Menu - Retro Diner</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css?v=2" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<a class="skip-link" href="#body">Skip to main content</a>
 	<header id="header">
 		<div>
 			<a href="index.html"><img class="logo" src="images/logo.png" width="513" height="84" alt="Retro Diner" title=""></a>
@@ -32,35 +33,36 @@
 		</div>
 	</header>
 	<main id="body">
+		<h1 class="visually-hidden">Menu</h1>
 		<div class="content">
 			<div>
 				<div>
-					<h1>Shakes</h1>
+					<h2>Shakes</h2>
 					<div> <img src="images/shake.jpg" width="434" height="347" alt="Chocolate and vanilla milkshake"> </div>
 					<ul>
 						<li>
-							<h2><a href="shake.html">Chocolate Vanilla</a></h2>
+							<h3><a href="shake.html">Chocolate Vanilla</a></h3>
 							<p>
 								A smooth blend of rich chocolate and classic vanilla, whipped into a creamy, nostalgic treat.
 							</p>
 							<span class="price">95&cent;</span>
 						</li>
 						<li>
-							<h2><a href="shake.html">Strawberry Smoothie</a></h2>
+							<h3><a href="shake.html">Strawberry Smoothie</a></h3>
 							<p>
 								Fresh, sweet strawberries blended to perfection for a cool and refreshing sip.
 							</p>
 							<span class="price">80&cent;</span>
 						</li>
 						<li>
-							<h2><a href="shake.html">Mango Banana Medley</a></h2>
+							<h3><a href="shake.html">Mango Banana Medley</a></h3>
 							<p>
 								Tropical mango and ripe banana come together in a creamy, fruity delight.
 							</p>
 							<span class="price">$1</span>
 						</li>
 						<li class="last	">
-							<h2><a href="shake.html">Dark Chocolate Supreme</a></h2>
+							<h3><a href="shake.html">Dark Chocolate Supreme</a></h3>
 							<p>
 								Deep, velvety dark chocolate shake topped with whipped cream for an indulgent finish.
 							</p>
@@ -71,7 +73,7 @@
 			</div>
 		</div>
 		<aside class="sidebar">
-			<h2>Menu</h2>
+			<div class="sidebar-title">Menu</div>
 			<ul class="navigation">
 				<li class="first">
 					<a href="burger.html">BURGERS</a>

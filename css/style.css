@@ -14,6 +14,20 @@ textarea:focus-visible {
 	outline :3px solid #f4c542;
 	outline-offset :3px;
 }
+.skip-link {
+	position :absolute;
+	left :0;
+	top :-50px;
+	z-index :10;
+	padding :8px 14px;
+	background :#ebe9d7;
+	color :#4c1407;
+	font-family :'NunitoRegular';
+	font-size :16px;
+}
+.skip-link:focus-visible {
+	top :0;
+}
 img {
 	border :0;
 }
@@ -330,7 +344,8 @@ img {
 #body .content div div p a:hover {
 	color :#80210b;
 }
-#body .content div div h1 {
+#body .content div div h1,
+#body .content div div h2 {
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
 	color :#1b6568;
@@ -355,7 +370,8 @@ img {
 #body .content div div ul li.last {
 	border :none;
 }
-#body .content div div ul li h2 a {
+#body .content div div ul li h2 a,
+#body .content div div ul li h3 a {
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	color :#822619;
@@ -411,7 +427,8 @@ img {
 	padding-top :30px;
 }
 #body .sidebar h1,
-#body .sidebar h2 {
+#body .sidebar h2,
+#body .sidebar .sidebar-title {
 	color :#1b6568;
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
@@ -737,6 +754,8 @@ img {
 	height :36px;
 	border :0;
 	cursor :pointer;
+	text-indent :-9999px;
+	color :transparent;
 }
 #footer div ul li input[type="submit"]:hover {
 	background :transparent url("../images/button.png") no-repeat 0 -192px;

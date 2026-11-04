@@ -5,9 +5,10 @@
 	<title>Burger Menu - Retro Diner</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css?v=2" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<a class="skip-link" href="#body">Skip to main content</a>
 	<header id="header">
 		<div>
 			<a href="index.html"><img class="logo" src="images/logo.png" width="513" height="84" alt="Retro Diner" title=""></a>
@@ -32,35 +33,36 @@
 		</div>
 	</header>
 	<main id="body">
+		<h1 class="visually-hidden">Menu</h1>
 		<div class="content">
 			<div>
 				<div>
-					<h1>Burgers</h1>
+					<h2>Burgers</h2>
 					<div> <img src="images/burger.jpg" width="434" height="288" alt="Classic burger with toppings"> </div>
 					<ul>
 						<li>
-							<h2><a href="burger.html">Burger Special</a></h2>
+							<h3><a href="burger.html">Burger Special</a></h3>
 							<p>
 								Our house classic! A juicy grilled beef patty topped with fresh lettuce, tomato, onions, pickles, and our signature Retro sauce, all served on a toasted bun. Simple, timeless, and always satisfying.
 							</p>
 							<span class="price">$1</span>
 						</li>
 						<li>
-							<h2><a href="burger.html">Veggie Burger</a></h2>
+							<h3><a href="burger.html">Veggie Burger</a></h3>
 							<p>
 								A delicious plant-based option packed with flavor. Made with a hearty veggie patty, crisp lettuce, tomato, avocado, and a light herb mayo on a toasted bun. A fresh and tasty choice for everyone.
 							</p>
 							<span class="price">99&cent;</span>
 						</li>
 						<li>
-							<h2><a href="burger.html">Super Duper Burger</a></h2>
+							<h3><a href="burger.html">Super Duper Burger</a></h3>
 							<p>
 								Big, bold, and unforgettable! Double beef patties stacked with melted cheese, crispy bacon, caramelized onions, and our special house sauce. This is the ultimate burger for serious appetites.
 							</p>
 							<span class="price">$2</span>
 						</li>
 						<li class="last	">
-							<h2><a href="burger.html">Kiddies Burger</a></h2>
+							<h3><a href="burger.html">Kiddies Burger</a></h3>
 							<p>
 								A small burger with juicy beef patty, tomato, lettuce, bacon and cheese. Served with small fries and drink of your choice.
 							</p>
@@ -71,7 +73,7 @@
 			</div>
 		</div>
 		<aside class="sidebar">
-			<h2>Menu</h2>
+			<div class="sidebar-title">Menu</div>
 			<ul class="navigation">
 				<li class="first">
 					<a class="active" href="burger.html">BURGERS</a>
