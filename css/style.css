@@ -103,14 +103,14 @@ img {
 	padding: 0 30px;
 	font-family :'Lobster1.4Regular';
 	background: #1B6568;
-	color :#4D8D93; /** Cambiar color a uno mas bajito **/
+	color :#ebe9d7;
 	font-size: 21px;
 }
 #header div ul.navigation li a:hover {
-	color :#3a8183;
+	color :#ffffff;
 }
 #header div ul.navigation li a.active {
-	color :#822619;
+	color :#ffffff;
 }
 #body {
 	width: 960px;
