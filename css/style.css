@@ -456,7 +456,8 @@ img {
 }
 #body .sidebar h1,
 #body .sidebar h2,
-#body .sidebar .sidebar-title {
+#body .sidebar .sidebar-title,
+#body .sidebar .sidebar-heading {
 	color :#1b6568;
 	font-family :'Lobster1.4Regular';
 	font-size :36px;
@@ -721,13 +722,15 @@ img {
 	margin :10px 0;
 	padding :0;
 }
-#footer div ul li h3 {
+#footer div ul li h3,
+#footer div ul li .hotline-number {
 	color :#ebe9d7;
 	font-family :'Lobster1.4Regular';
 	font-size :24px;
 	font-weight :normal;
 	margin :10px 0;
 	padding :0;
+	display :block;
 }
 #footer div ul li ul {
 	list-style-type :none;
